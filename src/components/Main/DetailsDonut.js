@@ -6,7 +6,7 @@ export default class DetailsSection extends Component {
     render() {
         return (
             <div className="row">
-                <CardDetail name='Views' />
+                <CardDetail name='Views' r="20K"/>
                 <div className="col-md-8 col-lg-9 is-light-text mb-4">
                     <div className="card is-card-dark chart-card">
                         <div className="row full-height">

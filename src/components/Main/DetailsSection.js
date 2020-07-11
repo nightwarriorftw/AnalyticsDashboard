@@ -7,9 +7,9 @@ export default class DetailsSection extends Component {
         return (
                 <div className="row">
                     <TotalAmount />
-                    <MiniChart name='Flipkart' />
-                    <MiniChart name='Amazon' />
-                    <MiniChart name='Ebay' />
+                    <MiniChart name='Flipkart' r="100K"/>
+                    <MiniChart name='Amazon' r="50K"/>
+                    <MiniChart name='Ebay' r="20K"/>
                 </div>
         )
     }

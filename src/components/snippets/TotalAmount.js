@@ -15,7 +15,7 @@ export default function TotalAmount() {
 
                     <div className="card-value pt-4 text-x-large">
                         <span className="text-large pr-1">Rs </span>
-                        
+                        170K 
                     </div>
                 </div>
             </div>

@@ -14,19 +14,20 @@ const chartData = [
     {
         label: "Ebay",
         value: "3"
-    }, 
+    },
     {
         label: "Flipkart",
-        value:"25"
+        value: "25"
     }
 ];
 
 const chartConfigs = {
     type: "bar2D",
-    width: "450", 
-    height: "370",
+    width: "450",
+    height: "500",
     dataFormat: "json",
     containerBackgroundOpacity: "0",
+    dataEmptyMessage: "Loading Data...",
     dataSource: {
         chart: {
             //Set the chart caption

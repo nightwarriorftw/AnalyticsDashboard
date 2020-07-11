@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 
 export default class MiniCharts extends Component {
-    state = {
-        ebRevenue: ''
-    }
     render() {
         return (
             <div className="col-lg-3 col-sm-6 is-light-text mb-4">
@@ -19,7 +16,7 @@ export default class MiniCharts extends Component {
 
                     <div className="card-value pt-4 text-x-large">
                         <span className="text-large pr-1">Rs </span>
-                        {this.state.ebRevenue}
+                        {this.props.r}
                     </div>
                 </div>
             </div>
