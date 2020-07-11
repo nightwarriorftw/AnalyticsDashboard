@@ -13,7 +13,7 @@ export default class Rate extends Component {
 
         const dataSource = {
             chart: {
-                caption: "Purchase Rate",
+                caption: `${this.props.name}`,
                 theme: "analysis",
                 defaultCenterLabel: `${this.props.purchaseRate}%`,
                 paletteColors: `${this.props.paletteColor}`

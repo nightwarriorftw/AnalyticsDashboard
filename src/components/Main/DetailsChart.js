@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MiniChartsDetails from '../snippets/MiniCardDetail'
+import Chart from '../snippets/Chart';
 
 export default class DetailsChart extends Component {
     render() {
@@ -7,7 +7,7 @@ export default class DetailsChart extends Component {
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12 is-light-text">
                     <div className="card is-card-dark chart-card">
-                        <MiniChartsDetails />
+                        <Chart />
                     </div>
                 </div>
             </div>
