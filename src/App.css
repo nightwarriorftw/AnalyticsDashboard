@@ -64,3 +64,13 @@ body {
   position: relative;
   min-height: 30px;
 }
+.chart-container {
+  background: rgb(23, 32, 46) !important;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.full-height.border-left, .full-height.border-right {
+  border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}

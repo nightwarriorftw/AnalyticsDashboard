@@ -4,7 +4,7 @@ options again and again.
 */
 
 window.FusionCharts.register("theme", {
-  name: "ecommerce",
+  name: "analysis",
   theme: {
     base: {
       chart: {
@@ -14,7 +14,7 @@ window.FusionCharts.register("theme", {
         baseFontSize: "14",
         baseFontBold: "0",
         chartBottomMargin: "0",
-        chartTopMargin: "0",
+        chartTopMargin: "10",
         chartLeftMargin: "0",
         chartRightMargin: "0",
         canvasBottomMargin: "0",
@@ -64,7 +64,7 @@ window.FusionCharts.register("theme", {
     },
     doughnut2d: {
       chart: {
-        captionFontSize: "14",
+        captionFontSize: "15",
         captionFontColor: "#8091ab",
         showLabels: "0",
         showValues: "0",

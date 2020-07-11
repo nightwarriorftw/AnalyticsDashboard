@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import MiniChart from '../snippets/MiniCardDetail';
 import Navbar from '../Navigations/navbar';
+import DetailsSection from './DetailsSection';
+import DetailsDonut from './DetailsDonut';
+import DetailsCharts from './DetailsChart';
 
 export default class main extends Component {
     render() {
@@ -9,11 +11,11 @@ export default class main extends Component {
                 <div className="row">
                     <Navbar />
                 </div>
-                <div className="row">
-                    <MiniChart name='Flipkart' />
-                    <MiniChart name='Amazon' />
-                    <MiniChart name='Ebay' />
-                </div>
+                
+                <DetailsSection />
+                <DetailsDonut />
+                <DetailsCharts />
+
             </div>
         )
     }
