@@ -10,7 +10,7 @@ body {
 }
 
 .is-card-dark {
-    background: rgb(32, 42, 59) !important;
+  background: rgb(32, 42, 59) !important;
 }
 
 .is-dark-text-light {
@@ -53,7 +53,7 @@ body {
   flex-grow: 1;
   flex-direction: column;
   flex-grow: 1;
-  padding: 1.5rem 1.5rem .75rem 1.5rem;
+  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
   height: calc(100%);
 }
 
@@ -70,7 +70,31 @@ body {
   margin-bottom: 15px;
 }
 
-.full-height.border-left, .full-height.border-right {
+.full-height.border-left,
+.full-height.border-right {
   border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
   border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+@media screen and (max-width: 567px) {
+  .full-height.border-left,
+  .full-height.border-right {
+    border-left: none !important;
+    border-right: none !important;
+  }
+
+  .chart-container {
+    height: 180px !important;
+    width: 180px !important;
+    justify-content: center;
+  }
+
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  all: unset;
+  cursor: pointer;
 }

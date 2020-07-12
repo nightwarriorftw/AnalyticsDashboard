@@ -9,7 +9,7 @@ ReactFC.fcRoot(FusionCharts, Maps, India);
 
 const mapConfig = {
     type: "maps/india",
-    width: "600",
+    width: "500",
     height: "500",
     dataFormat: "json",
     containerBackgroundOpacity: "0",
