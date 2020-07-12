@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import Main from './components/Main/main';
+import React from "react";
+import "./App.css";
+import Main from "./components/Main/main";
 
 function App() {
   return (
-    <div>  
+    <div>
       <Main />
     </div>
   );
